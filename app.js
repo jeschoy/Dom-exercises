@@ -43,3 +43,4 @@ for (let i = 0; i < liInsideOl.length; i++) {
 }
 
 // 12. Remove the div with a class of footer
+footer.remove();
