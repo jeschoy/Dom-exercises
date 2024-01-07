@@ -36,4 +36,10 @@ let list = document.querySelector('ul');
 list.appendChild(newLi);
 
 // 11. Loop over all of the lis inside the ol tag and give them a background color of “green”.
+let liInsideOl = document.querySelectorAll('ol li');
+
+for (let i = 0; i < liInsideOl.length; i++) {
+  liInsideOl[i].style.backgroundColor = 'green';
+}
+
 // 12. Remove the div with a class of footer
